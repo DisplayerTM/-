@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Estímulo à Criatividade - Inspirações</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #333333;
+      padding: 20px;
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+    
+    nav {
+      background-color: #666666;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+    
+    main {
+      margin: 20px;
+    }
+    
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+    
+    p {
+      color: #333333;
+      font-size: 14px;
+      line-height: 1.5;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+    
+    ul {
+      margin-top: 20px;
+      list-style-type: disc;
+      padding-left: 40px;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+    
+    li {
+      margin-bottom: 10px;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+    
+    footer {
+      background-color: #333333;
+      padding: 20px;
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+
+    button {
+      border: 1px solid #333333;
+      background-color: transparent;
+      color: #333333;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-family: 'Ubuntu', Arial, sans-serif;
+    }
+
+    button:hover {
+      background-color: #333333;
+      color: #ffffff;
+    }
+  </style>
+  <script>
+    function responderPergunta(pergunta) {
+      var resposta = prompt(pergunta);
+      if (resposta) {
+        alert("Muito obrigado pela colaboração!");
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1><span style="color: #ffffff;">Estímulo à Criatividade</span></h1>
+  </header>
+  
+  <nav>
+    <a href="TCC.html">Início</a>
+    <a href="desafios.html">Desafios</a>
+    <a href="sobre.html">Sobre</a>
+  </nav>
+  
+  <main><div style="display: flex; align-items: center;">
+      <img src="https://www.nicepng.com/png/full/117-1171089_thinking-statue-png-thinking-man-statue-png.png" alt="Imagem" style="width: 200px; margin-right: 20px;">
+      <ul>
+        <p>Para iniciar, aqui temos alguns exemplos para aumentar sua criatividade:</p>    
+        <li><button onclick="responderPergunta('O que te inspira na vida?')">1. O que te inspira na vida?</button></li>
+        <li><button onclick="responderPergunta('Qual foi a última vez que você teve uma ideia criativa?')">2. Qual foi a última vez que você teve uma ideia criativa?</button></li>
+        <li><button onclick="responderPergunta('Qual é o seu lugar favorito para buscar inspiração?')">3. Qual é o seu lugar favorito para buscar inspiração?</button></li>
+        <li><button onclick="responderPergunta('Com quem você gosta de trocar ideias para estimular sua criatividade?')">4. Com quem você gosta de trocar ideias para estimular sua criatividade?</button></li>
+        <li><button onclick="responderPergunta('Qual é o seu método preferido para relaxar e estimular sua criatividade?')">5. Qual é o seu método preferido para relaxar e estimular sua criatividade?</button></li>
+      </ul>
+    </div>
+  </main>
+  
+  <footer>
+    <p><span style="color: #ffffff;">&copy; 2023 Estímulo à Criatividade. Todos os direitos reservados.</span></p>
+  </footer>
+</body>
+</html>
